@@ -19,3 +19,18 @@ const questions = [
       options: ['<link alt="" href="">', '<link alternate="" href="">', '<script alt="" href="">', '<link ref="" alterante="">'],
       answer: 0
     },
+    {
+      question: "What are the border properties?",
+      options: ['width,radius,style,color', 'width,radius,style,color,solid', 'width,radius,style', 'width,radius,height,color'],
+      answer: 0
+    },
+    {
+      question: "Which of the following colors contain equal amounts of RBG?",
+      options: ['white', 'gery', 'black', 'none of the above'],
+      answer: 3
+    },
+    {
+      question: "What is the method to create a function in JavaScript?",
+      options: ['Function(){}', 'Function fun_name(){}', 'function fun_name(){}', 'fun_name(){}'],
+      answer: 2
+    },
