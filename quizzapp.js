@@ -34,3 +34,18 @@ const questions = [
       options: ['Function(){}', 'Function fun_name(){}', 'function fun_name(){}', 'fun_name(){}'],
       answer: 2
     },
+{
+    question: "Which HTML tag is used to create a hyperlink?",
+    options: ["<a>", "<link>", "<href>", "<hyper>"],
+    answer: 0
+    },
+    {
+    question: "Which tag is used to insert a line break in HTML?",
+    options: ["<break>", "<lb>", "<br>", "<newline>"],
+    answer: 2
+    },
+    {
+    question: "Which property is used to change text color in CSS?",
+    options: ["text-color", "font-color", "color", "background-color"],
+    answer: 2
+    },
