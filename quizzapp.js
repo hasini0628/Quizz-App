@@ -64,3 +64,20 @@ const questions = [
     options: ["color", "background", "bgcolor", "background-color"],
     answer: 3
     },
+{
+    question: "Which keyword is used to declare a variable in JavaScript?",
+    options: ["var", "let", "const", "All of the above"],
+    answer: 3
+    },
+    {
+    question: "Which symbol is used for single-line comments in JavaScript?",
+    options: ["//", "/* */", "#", "<!-- -->"],
+    answer: 0
+    },
+    {
+    question: "How do you display an alert box in JavaScript?",
+    options: ["alert('Hello');", "msg('Hello');", "popup('Hello');", "display('Hello');"],
+    answer: 0
+    },
+
+  ];
