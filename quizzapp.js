@@ -34,7 +34,7 @@ const questions = [
       options: ['Function(){}', 'Function fun_name(){}', 'function fun_name(){}', 'fun_name(){}'],
       answer: 2
     },
-{
+    {
     question: "Which HTML tag is used to create a hyperlink?",
     options: ["<a>", "<link>", "<href>", "<hyper>"],
     answer: 0
@@ -49,7 +49,7 @@ const questions = [
     options: ["text-color", "font-color", "color", "background-color"],
     answer: 2
     },
-{
+    {
     question: "Which CSS property controls the text size?",
     options: ["font-size", "text-size", "text-style", "font-weight"],
     answer: 0
@@ -64,7 +64,7 @@ const questions = [
     options: ["color", "background", "bgcolor", "background-color"],
     answer: 3
     },
-{
+    {
     question: "Which keyword is used to declare a variable in JavaScript?",
     options: ["var", "let", "const", "All of the above"],
     answer: 3
