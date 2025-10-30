@@ -49,3 +49,18 @@ const questions = [
     options: ["text-color", "font-color", "color", "background-color"],
     answer: 2
     },
+{
+    question: "Which CSS property controls the text size?",
+    options: ["font-size", "text-size", "text-style", "font-weight"],
+    answer: 0
+    },
+    {
+    question: "How do you select an element with id 'demo' in CSS?",
+    options: [".demo", "#demo", "demo", "*demo"],
+    answer: 1
+    },
+    {
+    question: "Which property is used to set the background color in CSS?",
+    options: ["color", "background", "bgcolor", "background-color"],
+    answer: 3
+    },
