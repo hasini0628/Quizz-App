@@ -81,3 +81,17 @@ const questions = [
     },
 
   ];
+let current = 0;
+  let score = 0;
+  let timerId;
+  const totalTime = 15;
+
+  const loginDiv = document.getElementById("login");
+  const quizDiv = document.getElementById("quiz");
+  const resultDiv = document.getElementById("result");
+  const questionTitle = document.getElementById("questionTitle");
+  const optionsContainer = document.getElementById("optionsContainer");
+  const feedback = document.getElementById("feedback");
+  const timerDisplay = document.getElementById("timer");
+  const scoreText = document.getElementById("scoreText");
+  const starsText = document.getElementById("starsText");
