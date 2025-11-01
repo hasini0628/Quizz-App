@@ -95,3 +95,8 @@ let current = 0;
   const timerDisplay = document.getElementById("timer");
   const scoreText = document.getElementById("scoreText");
   const starsText = document.getElementById("starsText");
+ function startQuiz() {
+    loginDiv.style.display = "none";
+    quizDiv.style.display = "block";
+    loadQuestion(current);
+  }
