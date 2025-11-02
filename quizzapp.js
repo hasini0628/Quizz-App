@@ -100,3 +100,8 @@ let current = 0;
     quizDiv.style.display = "block";
     loadQuestion(current);
   }
+ function loadQuestion(index) {
+    if (index >= questions.length) {
+      showResult();
+      return;
+    }
