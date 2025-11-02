@@ -105,3 +105,7 @@ let current = 0;
       showResult();
       return;
     }
+const q = questions[index];
+questionTitle.innerText = `Q${index + 1}: ${q.question}`;
+feedback.innerHTML = "";
+optionsContainer.innerHTML = "";
