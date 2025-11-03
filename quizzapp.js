@@ -109,3 +109,19 @@ const q = questions[index];
 questionTitle.innerText = `Q${index + 1}: ${q.question}`;
 feedback.innerHTML = "";
 optionsContainer.innerHTML = "";
+     q.options.forEach((opt, i) => {
+      const btn = document.createElement("button");
+      btn.textContent = opt;
+      btn.className = "option-btn";
+      btn.onclick = () => {
+        clearInterval(timerId);
+        if (i === q.answer) {
+          score += 10;
+          feedback.innerHTML = `<span style="color:green">✅ Correct!</span>`;
+        } else {
+          feedback.innerHTML = `<span style="color:red">❌ Incorrect. Correct: <b>${q.options[q.answer]}</b></span>`;
+        }
+        setTimeout(() => loadQuestion(++current), 1500);
+      };
+      optionsContainer.appendChild(btn);
+    });
