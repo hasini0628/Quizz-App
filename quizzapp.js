@@ -125,3 +125,7 @@ optionsContainer.innerHTML = "";
       };
       optionsContainer.appendChild(btn);
     });
+    let time = totalTime;
+    timerDisplay.innerText = `Time left: ${time}s`;
+    timerId = setInterval(() => {
+      time--;
