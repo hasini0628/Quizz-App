@@ -129,3 +129,11 @@ optionsContainer.innerHTML = "";
     timerDisplay.innerText = `Time left: ${time}s`;
     timerId = setInterval(() => {
       time--;
+      timerDisplay.innerText = `Time left: ${time}s`;
+      if (time === 0) {
+        clearInterval(timerId);
+        feedback.innerHTML = `<span style="color:red">⏰ Time's up! Correct: <b>${q.options[q.answer]}</b></span>`;
+        setTimeout(() => loadQuestion(++current), 1500);
+      }
+    }, 1000);
+  }
