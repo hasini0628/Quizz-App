@@ -137,3 +137,8 @@ optionsContainer.innerHTML = "";
       }
     }, 1000);
   }
+  function showResult() {
+    quizDiv.style.display = "none";
+    resultDiv.style.display = "block";
+    scoreText.innerText = `🎯 Your Score: ${score}/${questions.length * 10}`;
+    let stars = "";
