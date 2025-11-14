@@ -142,3 +142,11 @@ optionsContainer.innerHTML = "";
     resultDiv.style.display = "block";
     scoreText.innerText = `🎯 Your Score: ${score}/${questions.length * 10}`;
     let stars = "";
+    if (score >= 100) stars = "⭐⭐⭐⭐⭐";
+    else if (score >= 80) stars = "⭐⭐⭐⭐";
+    else if (score >= 60) stars = "⭐⭐⭐";
+    else if (score >= 40) stars = "⭐⭐";
+    else if (score >= 20) stars = "⭐";
+    else stars = "❌";
+    starsText.innerText = `⭐ Rating: ${stars}`;
+  }
