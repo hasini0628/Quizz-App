@@ -1,2 +1,1 @@
-A simple and interactive Web-Based Quiz Application built using HTML, CSS, and JavaScript.
-This app allows users to log in, attempt a timed quiz, receive instant feedback, view their final score, and get a star rating based on performance.
+A simple and interactive Web-Based Quiz Application built using HTML, CSS, and JavaScript.This app allows users to log in, attempt a timed quiz, receive instant feedback, view their final score, and get a star rating based on performance.
