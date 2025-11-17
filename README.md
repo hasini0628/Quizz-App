@@ -19,3 +19,14 @@ Generates a star rating based on performance:
 ⭐⭐⭐ Good
 ⭐⭐⭐⭐ Very Good
 ⭐⭐⭐⭐⭐ Excellent
+
+📱 Responsive UI
+Works smoothly on both mobile and desktop web browsers.
+
+📦 Project Structure
+quiz-app/
+│
+├── quizzapp.html     
+├── quizzapp.css      
+├── quizzapp.js       
+└── README.md        
