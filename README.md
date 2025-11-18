@@ -30,3 +30,8 @@ quiz-app/
 ├── quizzapp.css      
 ├── quizzapp.js       
 └── README.md        
+
+🛠️ Technologies Used
+HTML
+CSS
+JavaScript 
