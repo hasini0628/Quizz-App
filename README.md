@@ -39,7 +39,7 @@ JavaScript
 How to Run Locally:
 
 *Clone the repo
-   git clone https://github.com/your-username/quiz-app.git
+   git clone https://github.com/hasini0628/Quiz-App.git
 *Open the project folder
    cd quiz-app
 *Run the app
